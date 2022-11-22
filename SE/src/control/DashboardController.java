@@ -201,7 +201,7 @@ public class DashboardController {
     initializeFarmTreeView(rootItemContainer);
     addRectanglesToFarmMap(rootItemContainer);
     initializeAnimatedDrone();
-//    initializeTelloDroneAdapter();
+    initializeTelloDroneAdapter();
   }
 
   private void addToInfoLog(String message) {
